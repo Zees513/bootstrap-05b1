@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Layout</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
+  <div class="container-fluid">
+    <!-- Header -->
     <div class="row">
-        <div class="col-12 bg-info text-center mt-2">header</div>
+      <div class="col-12 bg-info text-center text-white py-2  rounded">
+        <h2>Header</h2>
+      </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg" width="100%" alt="">
+  </div>
+
+  <!-- Banner Image Full Width -->
+  <div class="w-100">
+    <img src="https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg" height="500px" 
+         class="img-fluid w-100"  alt="banner">
+  </div>
+
+  <div class="container my-4">
+    <!-- Content Boxes -->
+    <div class="row justify-content-center">
+      <div class="col-md-3 bg-info text-dark p-3 m-2 rounded shadow">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, 
+          laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? 
+          Repellendus, nisi!
+        </p>
+      </div>
+      <div class="col-md-3 bg-info text-dark p-3 m-2 rounded shadow">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, 
+          laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? 
+          Repellendus, nisi!
+        </p>
+      </div>
+      <div class="col-md-3 bg-info text-dark p-3 m-2 rounded shadow">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, 
+          laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? 
+          Repellendus, nisi!
+        </p>
+      </div>
+      <div class="row">
+        <h2 style="margin: 15px;justify-content: center;text-align: center;">About</h2>
+        <div class="col-6 mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis dignissimos illum, quo sit ipsa quaerat laboriosam ea cupiditate ullam exercitationem blanditiis non ducimus eos voluptatum! Tenetur ex voluptatum delectus earum laborum perferendis odit dolores, exercitationem natus, sequi magnam assumenda ipsum blanditiis, vero unde inventore minus impedit quod quas sunt nihil dolorem at animi dolorum! Quos esse dolore iusto asperiores vel velit aperiam molestias sit laboriosam? Eligendi officia pariatur rem, deleniti perferendis libero obcaecati unde impedit possimus ea expedita nulla eius cum magnam! Molestiae incidunt ad inventore deserunt odio. Cum architecto distinctio praesentium unde sunt enim perspiciatis nemo mollitia, tempore quasi.</div>
+        <div class="col-6 p-10">
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" height="350px" alt="">
         </div>
-        <div class="col-3" style="border: 1px solid balck;margin-top: 3px;border-radius: 30px;padding: 10px;background-color: aqua;"m-3>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? Repellendus, nisi!
-        </div>
-        <div class="col-3" style="border: 1px solid balck;margin-top: 3px;border-radius: 30px;padding: 10px;background-color: aqua;">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? Repellendus, nisi!
-        </div>
-        <div class="col-3" style="border: 1px solid balck;margin-top: 5px;border-radius: 30px;padding: 10px;background-color: aqua;justify-content:space-evenly;">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi corporis illo dolore est, laudantium illum ipsum impedit culpa eveniet quo doloribus minima magni asperiores vitae ipsam facere? Repellendus, nisi!
-        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-
-
-
-
-
-
-
-    <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
